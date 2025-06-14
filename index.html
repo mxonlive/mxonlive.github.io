@@ -3,42 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded Toffee Store</title>
+    <title>MX OnLive Sports</title>
     <style>
         body, html {
             margin: 0;
             padding: 0;
             height: 100%;
             overflow: hidden;
+            background: #000;
+        }
+        #iframe-container {
+            width: 100%;
+            height: 100vh;
         }
         iframe {
             border: none;
             width: 100%;
-            height: 100vh;
+            height: 100%;
         }
     </style>
 </head>
 <body>
-    <iframe src="https://digital.xigzo.store/toffee/" id="mainFrame"></iframe>
+    <div id="iframe-container">
+        <iframe src="https://mxonlive.wuaze.com/mxonsports/" id="mainFrame" allowfullscreen></iframe>
+    </div>
 
     <script>
         document.getElementById('mainFrame').onload = function() {
             var iframe = document.getElementById('mainFrame');
+            
+            // Method 1: Try to modify links inside iframe (may not work due to CORS)
             try {
-                // Set base target for all links in the iframe
-                iframe.contentDocument.querySelector('base')?.remove();
-                var base = iframe.contentDocument.createElement('base');
-                base.target = '_self';
-                iframe.contentDocument.head.insertBefore(base, iframe.contentDocument.head.firstChild);
-                
-                // Alternatively, you can modify all links
-                var links = iframe.contentDocument.getElementsByTagName('a');
-                for (var i = 0; i < links.length; i++) {
-                    links[i].target = '_self';
-                }
+                var links = iframe.contentDocument.querySelectorAll('a');
+                links.forEach(function(link) {
+                    link.target = '_self';
+                });
             } catch (e) {
-                console.log("Error modifying iframe content:", e);
+                console.log("Cannot directly modify iframe content due to CORS");
             }
+
+            // Method 2: Intercept navigation events
+            window.addEventListener('message', function(event) {
+                // Verify origin for security
+                if (event.origin === "https://mxonlive.wuaze.com") {
+                    if (event.data.type === 'navigation') {
+                        document.getElementById('mainFrame').src = event.data.url;
+                    }
+                }
+            });
         };
     </script>
 </body>
