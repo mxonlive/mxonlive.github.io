@@ -1,33 +1,45 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Smart Iframe Embed</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      overflow: hidden;
-    }
-    .iframe-container {
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%;
-      height: 100%;
-    }
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Toffee Store</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
 </head>
 <body>
-  <div class="iframe-container">
-    <iframe src="https://mxlive.puter.site/" allowfullscreen></iframe>
-  </div>
+    <iframe src="https://digital.xigzo.store/toffee/" id="mainFrame"></iframe>
+
+    <script>
+        document.getElementById('mainFrame').onload = function() {
+            var iframe = document.getElementById('mainFrame');
+            try {
+                // Set base target for all links in the iframe
+                iframe.contentDocument.querySelector('base')?.remove();
+                var base = iframe.contentDocument.createElement('base');
+                base.target = '_self';
+                iframe.contentDocument.head.insertBefore(base, iframe.contentDocument.head.firstChild);
+                
+                // Alternatively, you can modify all links
+                var links = iframe.contentDocument.getElementsByTagName('a');
+                for (var i = 0; i < links.length; i++) {
+                    links[i].target = '_self';
+                }
+            } catch (e) {
+                console.log("Error modifying iframe content:", e);
+            }
+        };
+    </script>
 </body>
 </html>
