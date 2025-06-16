@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -295,10 +294,8 @@
         const bombButton = document.getElementById('bombButton');
         const statusDiv = document.getElementById('status');
 
-        // তোর টার্গেট URL. এটা তোর সার্ভ00.নেট অ্যাকাউন্টে আপলোড করা PHP স্ক্রিপ্ট।
         const targetUrl = "https://nali.serv00.net/BlastCobra.php"; 
 
-        // লগ মেসেজ দেখানোর ফাংশন
         function log(message, type = 'info') {
             const p = document.createElement('div');
             p.classList.add('log-item');
@@ -308,8 +305,8 @@
             } else if (type === 'error') {
                 p.classList.add('log-error');
             }
-            statusDiv.prepend(p); // নতুন মেসেজ উপরে দেখাবে
-            if (statusDiv.children.length > 15) { // লগ বেশি হলে পুরাতনগুলো ডিলিট
+            statusDiv.prepend(p); 
+            if (statusDiv.children.length > 15) { 
                 statusDiv.removeChild(statusDiv.lastChild);
             }
         }
@@ -347,8 +344,7 @@
                     log(`এরর: #${i + 1} ${error.message}`, 'error');
                 }
                 
-                // Random যোগ কর যাতে সার্ভার সহজে ডিটেক্ট করতে না পারে
-                const delay = Math.random() * (1000 - 300) + 300; // 300ms থেকে 1 সেকেন্ডের মধ্যে দে
+                const delay = Math.random() * (1000 - 300) + 300; 
                 await new Promise(resolve => setTimeout(resolve, delay));
             }
 
