@@ -1,1 +1,81 @@
-1
+#EXTM3U
+# Playlist: Sports All in One
+# Author: সুলতান আ'রাবি
+# Description: Sports TV Channels with logos, including alternate streams in comment lines.
+# Updated: 20/06/2025
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Star Sports 1 HD
+https://smart.bengaldigital.live/star-sports-1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Star Sports 2 HD
+https://smart.bengaldigital.live/star-sports-2/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Sony Sports Ten 1 HD
+https://tataplay.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8
+<!-- name: Sony Sports Ten 1 HD | alt link: http://125.209.88.166:45793/BRN/TenSports.stream/playlist.m3u8 -->
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Sony Sports Ten 2 HD
+https://tataplay.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Sony Sports Ten 3 HD
+https://tataplay.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Sony Sports Ten 4 HD
+https://tataplay.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Sony Sports Ten 5 HD
+https://tataplay.slivcdn.com/hls/live/2020593/SONYSIXHD/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",ASports
+http://38.96.178.201/live/ASports/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",PTV Sports
+http://38.96.178.201/live/PTVSports/index.m3u8
+<!-- name: PTV Sports | alt link: http://38.96.178.201/live/PTVSports/index.m3u8 -->
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",ARY Sports
+http://125.209.88.166:45793/BRN/ArySports.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Geo Super
+http://125.209.88.166:45793/BRN/GeoSuper.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Gazi TV
+http://38.96.178.201/live/GaziTV/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",T Sports
+http://38.96.178.201/live/TSports/index.m3u8
+<!-- name: T Sports | alt link: http://38.96.178.201/live/TSports/tracks-v1a1/mono.m3u8 -->
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",DD Sports
+http://38.96.178.201/live/DDSports/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Willow HD
+https://tx2.nexgen.bz:4000//WILLOW/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Fancode Live
+https://allinonereborn.com/fcw/stream_proxy.php?url=https://dai.fancode.com/primary/128301_english_hls_29310adfreeta-di_h264/720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",FIFA+
+https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Dubai Sports 1
+https://dmitwlvvll.cdn.mgmlcdn.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Dubai Sports 2
+https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Dubai Sports 3
+https://dmitwlvvll.cdn.mgmlcdn.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Bein Sports 1
+https://abcc.yallashooot.store:8181/bein1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Bein Sports 2
+https://abcc.yallashooot.store:8181/bein2/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",EuroSport 1
+http://185.189.225.157/EuroSport1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",EuroSport 2
+http://185.189.225.157/EuroSport2/index.m3u8
+<!-- name: EuroSport 2 | alt link: http://185.189.225.157/EuroSport2/index.m3u8 -->
