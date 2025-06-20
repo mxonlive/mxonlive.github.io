@@ -4,6 +4,9 @@
 # Description: Sports TV Channels with logos, including alternate streams in comment lines.
 # Updated: 20/06/2025
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sultanarabi161/files/refs/heads/main/image/mxon_logo.webp",📺 Playlist Intro | About This Playlist
+https://cdn.jsdelivr.net/gh/mxonlive/mxonlive.github.io/mxon-intro-video.mp4
+
 #EXTINF:-1 tvg-logo="https://example.com/logo.png",Star Sports 1 HD
 https://smart.bengaldigital.live/star-sports-1/index.m3u8
 
