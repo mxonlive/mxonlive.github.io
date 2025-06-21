@@ -57,10 +57,10 @@ https://tataplay.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8
 https://tataplay.slivcdn.com/hls/live/2020593/SONYSIXHD/master.m3u8
 <!-- name: Sony Sports Ten 5 HD | alt link: http://45.148.145.57/S_Ten5/index.m3u8 -->
 
-#EXTINF:-1 tvg-logo="https://logowik.com/content/uploads/images/bein-sports-13097.logowik.com.webp",Bein Sports 1
+#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/a/AATXAJw5g9VNCNS3BgMqvhTF0DA9VtFfy0p9kqn8=s900-c-k-c0xffffffff-no-rj-mo",Bein Sports 1
 https://abcc.yallashooot.store:8181/bein1/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://th.bing.com/th/id/OIP._zdFPJq_GGLJ_W850Wr7EgHaFj?rs=1&pid=ImgDetMain&cb=idpwebpc2",Bein Sports 2
+#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/a/AATXAJw5g9VNCNS3BgMqvhTF0DA9VtFfy0p9kqn8=s900-c-k-c0xffffffff-no-rj-mo",Bein Sports 2
 https://abcc.yallashooot.store:8181/bein2/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6EIkuBhhqpEZeHP_805E1LeFadJispSnPcg&s",EuroSport 1
