@@ -16,7 +16,7 @@ https://smart.bengaldigital.live/star-sports-1/index.m3u8
 https://smart.bengaldigital.live/star-sports-2/index.m3u8
 <!-- name: Star Sports 2 HD | alt link: http://45.148.145.57/IN_2ST/index.m3u8 -->
 
-#EXTINF:-1 tvg-logo="http://watchindia.net:8880/live/82963/72037/2215.m3u8",Sony Sports Ten 1 HD
+#EXTINF:-1 tvg-logo="https://watchindia.net/images/channels/sports/Sony_Ten_1_HD.png",Sony Sports Ten 1 HD
 https://tataplay.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8
 <!-- name: Sony Sports Ten 1 HD | alt link: http://125.209.88.166:45793/BRN/TenSports.stream/playlist.m3u8 -->
 <!-- name: Sony Sports Ten 1 HD | alt link: http://45.148.145.57/SPTEN1HD/index.m3u8 -->
@@ -91,17 +91,17 @@ http://185.189.225.157/EuroSport1/index.m3u8
 http://185.189.225.157/EuroSport2/index.m3u8
 <!-- name: EuroSport 2 | alt link: http://185.189.225.157/EuroSport2/index.m3u8 -->
 
-#EXTINF:-1 tvg-logo="https://example.com/logo.png",Star Sports Select 1
+#EXTINF:-1 tvg-logo="https://watchindia.net/images/channels/sports/Star_Sports_Select_1_HD.png",Star Sports Select 1
 http://45.148.145.57/SS1_IND/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://example.com/logo.png",Star Sports Select 2
+#EXTINF:-1 tvg-logo="https://watchindia.net/images/channels/sports/Star_Sports_Select_2_HD.png",Star Sports Select 2
 http://45.148.145.57/IND_SL2/index.m3u8
 <!-- name: Star Sports Select 2 | alt link: http://45.148.145.57/AF_S2/index.m3u8 -->
 
 #EXTINF:-1 tvg-logo="https://example.com/logo.png",Star Sports 3 HD
 http://45.148.145.57/IN_ST3_HD/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://example.com/logo.png",Astro HD
+#EXTINF:-1 tvg-logo="https://watchindia.net/images/channels/sports/Astro_Cricket.png",Astro HD
 http://45.148.145.57/Cr_AS/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://example.com/logo.png",Criclife
