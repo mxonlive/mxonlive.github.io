@@ -2,55 +2,66 @@
 # Playlist: Sports All in One
 # Author: সুলতান আ'রাবি
 # Description: Sports TV Channels with logos, including alternate streams in comment lines.
-# Updated: 20/06/2025
+# Updated: 21/06/2025
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sultanarabi161/files/refs/heads/main/image/mxon_logo.webp",Playlist Intro | About This Playlist
 https://cdn.jsdelivr.net/gh/mxonlive/mxonlive.github.io/mxon-intro-video.mp4
 
 #EXTINF:-1 tvg-logo="https://watchindia.net/images/channels/sports/Star_Sports_1_HD.png",Star Sports 1 HD
 https://smart.bengaldigital.live/star-sports-1/index.m3u8
+<!-- name: Star Sports 1 HD | alt link: http://45.148.145.57/S_Eng/index.m3u8 -->
+<!-- name: Star Sports 1 HD | alt link: http://45.148.145.57/S1ENG_Global/index.m3u8 -->
 
 #EXTINF:-1 tvg-logo="https://watchindia.net/images/channels/sports/Star_Sports_2_HD.png",Star Sports 2 HD
 https://smart.bengaldigital.live/star-sports-2/index.m3u8
+<!-- name: Star Sports 2 HD | alt link: http://45.148.145.57/IN_2ST/index.m3u8 -->
 
 #EXTINF:-1 tvg-logo="http://watchindia.net:8880/live/82963/72037/2215.m3u8",Sony Sports Ten 1 HD
 https://tataplay.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8
 <!-- name: Sony Sports Ten 1 HD | alt link: http://125.209.88.166:45793/BRN/TenSports.stream/playlist.m3u8 -->
+<!-- name: Sony Sports Ten 1 HD | alt link: http://45.148.145.57/SPTEN1HD/index.m3u8 -->
 
 #EXTINF:-1 tvg-logo="https://watchindia.net/images/channels/sports/Sony_Ten_2_HD.png",Sony Sports Ten 2 HD
 https://tataplay.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8
+<!-- name: Sony Sports Ten 2 HD | alt link: http://45.148.145.57/IN_SNT2/index.m3u8 -->
 
 #EXTINF:-1 tvg-logo="https://watchindia.net/images/channels/sports/Sony_Ten_3_HD.png",Sony Sports Ten 3 HD
 https://tataplay.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8
+<!-- name: Sony Sports Ten 3 HD | alt link: http://45.148.145.57/tenso3/index.m3u8 -->
 
 #EXTINF:-1 tvg-logo="https://watchindia.net/images/channels/sports/Sony_Ten_4_HD.png",Sony Sports Ten 4 HD
 https://tataplay.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://watchindia.net/images/channels/sports/Sony_Ten_5_HD.png",Sony Sports Ten 5 HD
 https://tataplay.slivcdn.com/hls/live/2020593/SONYSIXHD/master.m3u8
+<!-- name: Sony Sports Ten 5 HD | alt link: http://45.148.145.57/S_Ten5/index.m3u8 -->
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzkAPsj5_azQWwEGkcrJbg5hD_xITmrOKhtQ&s",ASports
 http://38.96.178.201/live/ASports/index.m3u8
+<!-- name: ASports | alt link: http://45.148.145.57/AS_PK/index.m3u8 -->
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e4/PTV_Sports.png",PTV Sports
 http://38.96.178.201/live/PTVSports/index.m3u8
-<!-- name: PTV Sports | alt link: http://38.96.178.201/live/PTVSports/index.m3u8 -->
+<!-- name: PTV Sports | alt link: http://45.148.145.57/ptvS/index.m3u8 -->
 
 #EXTINF:-1 tvg-logo="https://example.com/logo.png",ARY Sports
 http://125.209.88.166:45793/BRN/ArySports.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5f/Geo_Super_logo.png",Geo Super
 http://125.209.88.166:45793/BRN/GeoSuper.stream/playlist.m3u8
+<!-- name: Geo Super | alt link: http://45.148.145.57/tan16450/index.m3u8 -->
 
 #EXTINF:-1 tvg-logo="https://th.bing.com/th/id/OIP.nBOx5eStTn3_uay8si_qdwHaHa?rs=1&pid=ImgDetMain&cb=idpwebpc2",T Sports
 http://38.96.178.201/live/TSports/index.m3u8
 <!-- name: T Sports | alt link: http://38.96.178.201/live/TSports/tracks-v1a1/mono.m3u8 -->
+<!-- name: T Sports | alt link: http://45.148.145.57/Gazi_TV/index.m3u8 -->
 
 #EXTINF:-1 tvg-logo="https://watchindia.net/images/channels/sports/DD_Sports.png",DD Sports
 http://38.96.178.201/live/DDSports/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://watchindia.net/images/channels/sports/Willow_HD.png",Willow HD
 https://tx2.nexgen.bz:4000//WILLOW/index.m3u8
+<!-- name: Willow HD | alt link: http://45.148.145.57/Wi_Cr/index.m3u8 -->
 
 #EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/lp1Tdhp75MQyrHqrsyRBV74HxoL3Ko8KRAjOUI1wUHREAxuuVwKR6vnamgvMEn4C4Q",Fancode Live
 https://allinonereborn.com/fcw/stream_proxy.php?url=https://dai.fancode.com/primary/128301_english_hls_29310adfreeta-di_h264/720p.m3u8
@@ -79,3 +90,32 @@ http://185.189.225.157/EuroSport1/index.m3u8
 #EXTINF:-1 tvg-logo="https://logowik.com/content/uploads/images/bein-sports-25584.logowik.com.webp",EuroSport 2
 http://185.189.225.157/EuroSport2/index.m3u8
 <!-- name: EuroSport 2 | alt link: http://185.189.225.157/EuroSport2/index.m3u8 -->
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Star Sports Select 1
+http://45.148.145.57/SS1_IND/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Star Sports Select 2
+http://45.148.145.57/IND_SL2/index.m3u8
+<!-- name: Star Sports Select 2 | alt link: http://45.148.145.57/AF_S2/index.m3u8 -->
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Star Sports 3 HD
+http://45.148.145.57/IN_ST3_HD/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Astro HD
+http://45.148.145.57/Cr_AS/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Criclife
+http://45.148.145.57/IN_CR1/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Sky Sports
+http://45.148.145.57/team_Cc/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Super Sports
+http://45.148.145.57/AF_S_CR/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",Sports 18
+http://45.148.145.57/IN_S28/index.m3u8
+<!-- name: Sports 18 | alt link: http://45.148.145.57/IN_S28/index.m3u8 -->
+
+#EXTINF:-1 tvg-logo="https://example.com/logo.png",TNT Cricket HD
+http://45.148.145.57/IN_TN4/index.m3u8
