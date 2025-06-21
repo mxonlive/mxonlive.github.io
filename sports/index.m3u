@@ -4,26 +4,6 @@
 # Description: Sports TV Channels with logos, including alternate streams in comment lines.
 # Updated: 21/06/2025
 
-
-<!-- name: T Sports | alt link: http://38.96.178.201/live/TSports/tracks-v1a1/mono.m3u8 -->
-<!-- name: T Sports | alt link: http://45.148.145.57/Gazi_TV/index.m3u8 -->
-<!-- name: Star Sports 1 HD | alt link: http://45.148.145.57/S_Eng/index.m3u8 -->
-<!-- name: Star Sports 1 HD | alt link: http://45.148.145.57/S1ENG_Global/index.m3u8 -->
-<!-- name: Star Sports Select 2 | alt link: http://45.148.145.57/AF_S2/index.m3u8 -->
-<!-- name: Sony Sports Ten 1 HD | alt link: http://125.209.88.166:45793/BRN/TenSports.stream/playlist.m3u8 -->
-<!-- name: Sony Sports Ten 1 HD | alt link: http://45.148.145.57/SPTEN1HD/index.m3u8 -->
-<!-- name: Star Sports 2 HD | alt link: http://45.148.145.57/IN_2ST/index.m3u8 -->
-<!-- name: Sony Sports Ten 2 HD | alt link: http://45.148.145.57/IN_SNT2/index.m3u8 -->
-<!-- name: Willow HD | alt link: http://45.148.145.57/Wi_Cr/index.m3u8 -->
-<!-- name: Sony Sports Ten 3 HD | alt link: http://45.148.145.57/tenso3/index.m3u8 -->
-<!-- name: Sony Sports Ten 5 HD | alt link: http://45.148.145.57/S_Ten5/index.m3u8 -->
-<!-- name: Geo Super | alt link: http://45.148.145.57/tan16450/index.m3u8 -->
-<!-- name: EuroSport 2 | alt link: http://185.189.225.157/EuroSport2/index.m3u8 -->
-<!-- name: ASports | alt link: http://45.148.145.57/AS_PK/index.m3u8 -->
-<!-- name: ASports | alt link: http://125.209.88.166:45793/BRN/ArySports.stream/playlist.m3u8 -->
-<!-- name: PTV Sports | alt link: http://45.148.145.57/ptvS/index.m3u8 -->
-
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sultanarabi161/files/refs/heads/main/image/mxon_logo.webp",Playlist Intro | About This Playlist
 https://cdn.jsdelivr.net/gh/mxonlive/mxonlive.github.io/mxon-intro-video.mp4
 
