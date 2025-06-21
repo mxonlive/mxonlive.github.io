@@ -21,9 +21,6 @@ https://smart.bengaldigital.live/star-sports-1/index.m3u8
 https://smart.bengaldigital.live/star-sports-2/index.m3u8
 <!-- name: Star Sports 2 HD | alt link: http://45.148.145.57/IN_2ST/index.m3u8 -->
 
-#EXTINF:-1 tvg-logo="https://th.bing.com/th/id/OIP.IZFGr9DoCb97OTdJ5eeZDgHaFe?rs=1&pid=ImgDetMain",Star Sports 3 HD
-http://45.148.145.57/IN_ST3_HD/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://watchindia.net/images/channels/sports/Star_Sports_Select_1_HD.png",Star Sports Select 1
 http://45.148.145.57/SS1_IND/index.m3u8
 
