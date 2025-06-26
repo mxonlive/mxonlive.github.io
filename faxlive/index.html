@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>faxlive - Enjoy you favorite channels 🔥</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      height: 100%;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    .player-container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    
+    video {
+    width: 100%;
+    height: 30vh; /* 50vh, 55vh */
+    background: black;
+    object-fit: cover;
+    }
+    
+      
+    .search-box {
+      flex: 0 0 auto;
+      padding: 15px 20px;
+      background-color: #f1f1f1;
+      border-bottom: 1px solid #ddd;
+    }
+    .search-box input {
+      width: 100%;
+      padding: 12px 15px;
+      font-size: 16px;
+      border: 1px solid #bbb;
+      border-radius: 6px;
+    }
+    .playlist-container {
+      flex: 1;
+      overflow-y: auto;
+      padding: 10px 20px;
+      background-color: #fafafa;
+    }
+    .playlist-container ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .playlist-item {
+      padding: 10px 10px;
+      font-size: 16px;
+      border-bottom: 1px solid #e0e0e0;
+      cursor: pointer;
+    }
+    .playlist-item:hover {
+      background-color: #f0f0f0;
+    }
+    .playlist-item.active {
+      background-color: #dcdcdc;
+    }
+    footer {
+      background-color: #ddd;
+      text-align: center;
+      padding: 12px;
+      font-size: 0.85em;
+      flex: 0 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="player-container">
+    <video id="videoPlayer" controls></video>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="🔎 Search TV channels...">
+    </div>
+
+    <div class="playlist-container">
+      <ul id="playlist"></ul>
+    </div>
+  </div>
+
+  <footer>
+    Developed by Oriby Team – Brought to life by Sultan 🔥
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <script>
+    const video = document.getElementById('videoPlayer');
+    const playlistEl = document.getElementById('playlist');
+    const searchInput = document.getElementById('searchInput');
+
+    let tracks = [];
+    let currentIndex = 0;
+    let hls;
+
+    function loadM3U(url) {
+      fetch(url)
+        .then(res => res.text())
+        .then(data => {
+          tracks = parseM3U(data);
+          renderPlaylist();
+          loadTrack(currentIndex);
+        })
+        .catch(err => console.error('M3U Load Error:', err));
+    }
+
+    function parseM3U(data) {
+      const lines = data.split('\n');
+      const result = [];
+
+      for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+        if (line.startsWith('#EXTINF:')) {
+          const title = line.split(',')[1]?.trim() || 'Untitled';
+          const url = lines[i + 1]?.trim();
+          if (url && url.startsWith('http')) {
+            result.push({ title, url });
+          }
+          i++;
+        }
+      }
+
+      return result;
+    }
+
+    function renderPlaylist() {
+      playlistEl.innerHTML = '';
+      tracks.forEach((track, index) => {
+        const li = document.createElement('li');
+        li.className = 'playlist-item';
+        li.innerHTML = `<span style="font-size: 1.2em;">•</span> ${track.title}`;
+        li.addEventListener('click', () => loadTrack(index));
+        playlistEl.appendChild(li);
+      });
+    }
+
+    function loadTrack(index) {
+      if (index < 0 || index >= tracks.length) return;
+
+      currentIndex = index;
+      const url = tracks[index].url;
+
+      if (hls) hls.destroy();
+
+      if (Hls.isSupported()) {
+        hls = new Hls();
+        hls.loadSource(url);
+        hls.attachMedia(video);
+      } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = url;
+      }
+
+      document.querySelectorAll('.playlist-item').forEach((el, idx) => {
+        el.classList.toggle('active', idx === index);
+      });
+    }
+
+    searchInput.addEventListener('input', () => {
+      const term = searchInput.value.toLowerCase();
+      document.querySelectorAll('.playlist-item').forEach(item => {
+        const match = item.textContent.toLowerCase().includes(term);
+        item.style.display = match ? 'block' : 'none';
+      });
+    });
+
+    loadM3U("https://raw.githubusercontent.com/mxonlive/mxonlive.github.io/refs/heads/main/playlists/jagobd.m3u");
+  </script>
+</body>
+</html>
