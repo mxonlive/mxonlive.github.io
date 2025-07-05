@@ -1,6 +1,8 @@
 #EXTM3U
 #PLAYLIST: YouTube Live Channels - Playlist by সুলতান আ'রাবি
 
+#EXTINF:-1 tvg-logo="https://mxonlive.github.io/live/mxonlive_logo.png",Playlist Intro | About This Playlist
+https://mxonlive.github.io/live/mxon_intro.m3u8
 
 #EXTINF:-1,1. Somoy TV
 https://m.xigzo.store/yt/live.php?video_id=ssieXqdIxAI
