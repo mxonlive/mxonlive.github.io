@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Watch live sports streaming on Lize Sports. Enjoy HD quality and fast playback across all devices.">
+    <meta name="keywords" content="live sports, streaming, Lize Sports, HLS, m3u8, sports channels">
+    <meta name="author" content="Lize Sports Team">
+
+    <!-- Title -->
+    <title>Lize Sports Live - v5on.site/lize</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://v5on.site/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://v5on.site/apple-touch-icon.png">
+
+    <!-- Open Graph for Social Sharing -->
+    <meta property="og:title" content="Lize Sports Live">
+    <meta property="og:description" content="Stream your favorite sports channels live in HD.">
+    <meta property="og:image" content="https://v5on.site/og-image.png">
+    <meta property="og:url" content="https://v5on.site/lize">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Styles -->
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .header {
+            width: 100%;
+            background-color: #000;
+            padding: 10px 20px;
+            text-align: left;
+        }
+
+        .header-logo {
+            height: 50px;
+            width: auto;
+        }
+
+        .player-container {
+            width: 100%;
+            max-width: 100%;
+            margin: 0 auto;
+            background-color: #000;
+        }
+
+        #video-player {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 16/9;
+            display: block;
+        }
+
+        .channels-container {
+            width: 100%;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 10px 20px;
+            background-color: #1e1e1e;
+            text-align: left;
+            height: auto;
+        }
+
+        .channel-logo {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 10px;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: border-color 0.2s;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .channel-logo.active {
+            border-color: red;
+        }
+
+        .channels-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        .channels-container {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        @media screen and (max-width: 768px) {
+            .header-logo {
+                height: 40px;
+            }
+
+            .channel-logo {
+                width: 45px;
+                height: 45px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header" role="banner">
+        <img src="https://text-images-generator.onrender.com/placeholder?width=512&height=128&bg=000000&color=d32f2f&text=Lize%20Sports&fontSize=72&bold=true&retina=3.png" class="header-logo" alt="Lize Sports Logo">
+    </header>
+
+    <main>
+        <section class="player-container" aria-label="Live Sports Player">
+            <video id="video-player" controls aria-label="Live video stream"></video>
+        </section>
+
+        <nav class="channels-container" id="channels-container" aria-label="Channel Selector"></nav>
+    </main>
+
+    <!-- HLS.js -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const videoPlayer = document.getElementById('video-player');
+            const channelsContainer = document.getElementById('channels-container');
+
+            let hls = null;
+            let currentChannel = null;
+            let channels = [];
+
+            async function fetchChannelData() {
+                try {
+                    const response = await fetch('https://raw.githubusercontent.com/byte-capsule/TSports-m3u8-Grabber/main/NS_Player_Tsports_live.m3u');
+                    if (!response.ok) throw new Error('Failed to fetch channel data');
+                    const data = await response.json();
+                    return data;
+                } catch (error) {
+                    console.error('Error fetching channel data:', error);
+                    return [];
+                }
+            }
+
+            function renderChannels() {
+                channelsContainer.innerHTML = '';
+                channels.forEach(channel => {
+                    const logo = document.createElement('img');
+                    logo.src = channel.logo;
+                    logo.alt = channel.name;
+                    logo.title = channel.name;
+                    logo.className = 'channel-logo';
+
+                    if (currentChannel && currentChannel.link === channel.link) {
+                        logo.classList.add('active');
+                    }
+
+                    logo.addEventListener('click', () => playChannel(channel));
+                    channelsContainer.appendChild(logo);
+                });
+            }
+
+            function playChannel(channel) {
+                currentChannel = channel;
+
+                if (hls) hls.destroy();
+
+                if (Hls.isSupported()) {
+                    hls = new Hls({
+                        xhrSetup: function(xhr) {
+                            xhr.setRequestHeader('User-Agent', channel.userAgent);
+                            xhr.setRequestHeader('Origin', channel.origin);
+                            xhr.setRequestHeader('Referer', channel.referrer);
+                        }
+                    });
+
+                    hls.loadSource(channel.link);
+                    hls.attachMedia(videoPlayer);
+                    hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                        videoPlayer.play().catch(e => console.error('Auto-play failed:', e));
+                        renderChannels();
+                    });
+
+                    hls.on(Hls.Events.ERROR, function(event, data) {
+                        if (data.fatal) {
+                            switch(data.type) {
+                                case Hls.ErrorTypes.NETWORK_ERROR:
+                                    console.error('Network error');
+                                    break;
+                                case Hls.ErrorTypes.MEDIA_ERROR:
+                                    console.error('Media error');
+                                    break;
+                                default:
+                                    console.error('Unknown error');
+                                    break;
+                            }
+                        }
+                    });
+                } else if (videoPlayer.canPlayType('application/vnd.apple.mpegurl')) {
+                    videoPlayer.src = channel.link;
+                    videoPlayer.addEventListener('loadedmetadata', function() {
+                        videoPlayer.play().catch(e => console.error('Auto-play failed:', e));
+                        renderChannels();
+                    });
+                } else {
+                    alert('HLS is not supported in your browser');
+                }
+            }
+
+            async function init() {
+                channels = await fetchChannelData();
+                if (channels.length > 0) {
+                    playChannel(channels[0]);
+                    renderChannels();
+                } else {
+                    console.error('No channels found');
+                }
+            }
+
+            init();
+        });
+    </script>
+</body>
+</html>
