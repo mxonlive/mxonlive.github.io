@@ -1,51 +1,63 @@
 #EXTM3U
 #PLAYLIST: YouTube Live Channels - Playlist by সুলতান আ'রাবি
 
-#EXTINF:-1 tvg-logo="https://mxonlive.github.io/live/mxonlive_logo.png",Playlist Intro | About This Playlist
+#EXTINF:-1 tvg-logo="https://mxonlive.github.io/live/mxonlive_logo.png",00. Playlist Intro | About This Playlist
 https://mxonlive.github.io/live/mxonlive_welcome_intro_0.ts
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/46/Ekattor_TV_logo.png",Ekattor TV
-http://v5on.site/yt-live/live.php?video_id=CTyNFCuxWVA
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOkwVwLVZsgC6g15O1lUACtQJ6OxgWT48md0jzUEXyzDjpajbxP9eF5KxP&s=10",Tsports
-http://v5on.site/yt-live/live.php?video_id=vgfFbTu2F_s
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/86/Jamuna_TV_Logo.png",Jamuna TV
-http://v5on.site/yt-live/live.php?video_id=kPYZ202o818
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/fc/Channel_24_%28TV_channel%29_logo.png",Channel 24
-http://v5on.site/yt-live/live.php?video_id=hm0sDNIunYU
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/bc/Somoy_TV_logo.png",Somoy TV
-http://v5on.site/yt-live/live.php?video_id=5YLNIUlUmEU
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e2/ATN_News_logo.png",ATN News
-http://v5on.site/yt-live/live.php?video_id=eP8-hq5k6pk
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f3/NTV_Bangladesh_logo.png",NTV
-http://v5on.site/yt-live/live.php?video_id=qnpfhjMhMKY
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e2/Rtv_Logo.png",RTV
-http://v5on.site/yt-live/live.php?video_id=uHKNpxAco_g
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d9/Independent_TV_Bangladesh_logo.png",Independent TV
-http://v5on.site/yt-live/live.php?video_id=n8WTsvnUJLs
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/75/Al_Jazeera_English_Logo.png",Al Jazeera English
-http://v5on.site/yt-live/live.php?video_id=gCNeDWCI0vo
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/3b/Sky_News_2020_logo.png",Sky News
-http://v5on.site/yt-live/live.php?video_id=YDvsBbKfLPA
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/48/Deutsche_Welle_logo_2023.svg",DW News
-http://v5on.site/yt-live/live.php?video_id=LuKwFajn37U
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/09/CNBC_logo.svg",CNBC
-http://v5on.site/yt-live/live.php?video_id=9NyxcX3rhQs
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/Bloomberg_logo.svg",Bloomberg
-http://v5on.site/yt-live/live.php?video_id=iEpJwprxDdk
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/80/ABC_News_logo.png",ABC News
-http://v5on.site/yt-live/live.php?video_id=iipR5yUp36o
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9e/Fox_News_Channel_logo.png",Fox News
-http://v5on.site/yt-live/live.php?video_id=QqdsfsXgRDM
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/bbc_earth_logo.svg",BBC Earth
-http://v5on.site/yt-live/live.php?video_id=ciQVMWbhjGY
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/fa/Euronews_logo.png",Euronews
-http://v5on.site/yt-live/live.php?video_id=pykpO5kQJ98
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsB5tQYdgv9KkdjKxmELD3WEnXIbO_niaZfDOtGr-hdVKwGnEK2BZgndAX&s=10",WowKidz
-http://v5on.site/yt-live/live.php?video_id=vagAU-xhby0
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlgX4D1YSrx_Qfgnd0X37bbo9fdupuFNT1wJpdjXHjdjSczJLhaumZPRg&s=10",Masha And Bear
-http://v5on.site/yt-live/live.php?video_id=dREkRII9Zbs
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/ee/India_Today_Group_Logo.png",India Today
-http://v5on.site/yt-live/live.php?video_id=7q0txi4S6kE
+#EXTINF:-1 tvg-logo="",01. Alan Becker
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=CYhGhs0Ismk
+#EXTINF:-1 tvg-logo="",02. Madani Channel Urdu
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=h_t4sIf1giY
+#EXTINF:-1 tvg-logo="",03. PBS KIDS
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=brcHz5CmxQQ
+#EXTINF:-1 tvg-logo="",04. Nicktoons
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=hEer6WUZhYg
+#EXTINF:-1 tvg-logo="",05. a TV
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=GRrDSYxuyX4
+#EXTINF:-1 tvg-logo="",06. Jungle Beat
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=1f8lo02e2SI
+#EXTINF:-1 tvg-logo="",07. Kids Land
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=KTZudQbF2as
 
-# Auto-updated: 2025-07-14 09:33:19
-# Note: Use in media player like VLC.
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/46/Ekattor_TV_logo.png",08. Ekattor TV
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=MTRdDgq27dQ
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOkwVwLVZsgC6g15O1lUACtQJ6OxgWT48md0jzUEXyzDjpajbxP9eF5KxP&s=10",09. Tsports
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=vgfFbTu2F_s
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/86/Jamuna_TV_Logo.png",10. Jamuna TV
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=kPYZ202o818
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/fc/Channel_24_%28TV_channel%29_logo.png",11. Channel 24
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=hm0sDNIunYU
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/bc/Somoy_TV_logo.png",12. Somoy TV
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=5YLNIUlUmEU
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e2/ATN_News_logo.png",13. ATN News
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=eP8-hq5k6pk
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f3/NTV_Bangladesh_logo.png",14. NTV
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=qnpfhjMhMKY
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e2/Rtv_Logo.png",15. RTV
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=uHKNpxAco_g
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d9/Independent_TV_Bangladesh_logo.png",16. Independent TV
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=n8WTsvnUJLs
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/75/Al_Jazeera_English_Logo.png",17. Al Jazeera English
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=gCNeDWCI0vo
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/3b/Sky_News_2020_logo.png",18. Sky News
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=YDvsBbKfLPA
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/48/Deutsche_Welle_logo_2023.svg",19. DW News
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=LuKwFajn37U
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/09/CNBC_logo.svg",20. CNBC
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=9NyxcX3rhQs
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/Bloomberg_logo.svg",21. Bloomberg
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=iEpJwprxDdk
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/80/ABC_News_logo.png",22. ABC News
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=iipR5yUp36o
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9e/Fox_News_Channel_logo.png",23. Fox News
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=QqdsfsXgRDM
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c7/bbc_earth_logo.svg",24. BBC Earth
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=ciQVMWbhjGY
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/fa/Euronews_logo.png",25. Euronews
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=pykpO5kQJ98
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsB5tQYdgv9KkdjKxmELD3WEnXIbO_niaZfDOtGr-hdVKwGnEK2BZgndAX&s=10",26. WowKidz
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=vagAU-xhby0
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlgX4D1YSrx_Qfgnd0X37bbo9fdupuFNT1wJpdjXHjdjSczJLhaumZPRg&s=10",27. Masha And Bear
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video_id=dREkRII9Zbs
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/ee/India_Today_Group_Logo.png",28. India Today
+http://sultanarabi2025-001-site1.qtempurl.com/yt-live/live.php?video
