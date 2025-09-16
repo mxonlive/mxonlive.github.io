@@ -6,15 +6,33 @@
   <title>M3U8 Player</title>
   <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
   <style>
-    html, body {
+    body {
       margin: 0;
       padding: 0;
-      height: 100%;
       background: black;
+      display: flex;
+      justify-content: center;
     }
+    /* YouTube style player container */
     #player {
       width: 100%;
-      height: 100%;
+      max-width: 960px; /* similar to YouTube */
+      aspect-ratio: 16 / 9;
+    }
+    /* Custom red theme for Clappr controls */
+    .player-poster[data-poster] {
+      background-size: cover;
+    }
+    .bar-container .bar-fill-1,
+    .bar-container .bar-fill-2,
+    .bar-container .bar-fill-3,
+    .bar-container .bar-scrubber,
+    .clappr-bar-progress .bar-fill {
+      background-color: red !important;
+    }
+    .media-control .media-control-icon {
+      color: red !important;
+      fill: red !important;
     }
   </style>
 </head>
@@ -33,7 +51,6 @@
       mute: false,
       width: "100%",
       height: "100%",
-      mediacontrol: { seekbar: "#00adee", buttons: "#ffffff" }
     });
   </script>
 </body>
