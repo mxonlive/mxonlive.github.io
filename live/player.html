@@ -3,82 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M3U8 Player</title>
+    <title>HLS Player</title>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr-hlsjs-playback@latest/dist/clappr-hlsjs-playback.min.js"></script>
     <style>
         body {
-            font-family: sans-serif;
-            background-color: #121212;
-            color: #E0E0E0;
+            margin: 0; /* Remove default body margin */
+            padding: 0; /* Remove default body padding */
+            background-color: #000; /* Black background for a clean look */
             display: flex;
-            flex-direction: column;
-            align-items: center;
             justify-content: center;
-            min-height: 100vh;
-            margin: 0;
-            padding: 20px;
+            align-items: center;
+            min-height: 100vh; /* Make sure it takes full viewport height */
+            overflow: hidden; /* Prevent scrollbars */
         }
-        .container {
-            width: 100%;
-            max-width: 800px;
-            background-color: #1E1E1E;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-        }
+
         #player {
             width: 100%;
-            height: 450px;
-            background-color: black;
-            border-radius: 8px;
-            overflow: hidden;
-            margin-top: 20px;
-        }
-        .input-group {
-            display: flex;
-            gap: 10px;
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        #urlInput {
-            flex-grow: 1;
-            padding: 10px;
-            border: 1px solid #333;
-            background-color: #2C2C2C;
-            color: #E0E0E0;
-            border-radius: 4px;
-            font-size: 16px;
-        }
-        #playButton {
-            padding: 10px 20px;
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background-color 0.3s;
-        }
-        #playButton:hover {
-            background-color: #0056b3;
+            height: 100vh; /* Player takes full viewport height */
+            max-width: 100%; /* Ensure it doesn't exceed viewport width */
+            max-height: 100vh; /* Ensure it doesn't exceed viewport height */
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <div class="input-group">
-        <input type="text" id="urlInput" placeholder="এখানে M3U8 লিঙ্কের URL দিন...">
-        <button id="playButton">Play</button>
-    </div>
-    <div id="player"></div>
-</div>
+<div id="player"></div>
 
 <script>
-    const urlInput = document.getElementById('urlInput');
-    const playButton = document.getElementById('playButton');
-    const playerElement = document.getElementById('player');
     let player = null;
 
     function initializePlayer(url) {
@@ -90,34 +42,30 @@
             source: url,
             parentId: '#player',
             autoPlay: true,
-            poster: 'https://cdn.jsdelivr.net/gh/clappr/clappr@master/assets/images/clappr-logo.png',
             plugins: [Clappr.HlsjsPlayback],
             width: '100%',
             height: '100%',
-            mediacontrol: {
-                seekbar: '#007BFF',
-                buttons: '#FFFFFF',
-                text: '#FFFFFF'
-            }
+            // You can customize controls here if needed, but keeping it minimal
+            // mediacontrol: {
+            //     seekbar: '#007BFF',
+            //     buttons: '#FFFFFF',
+            //     text: '#FFFFFF'
+            // }
         });
     }
 
-    playButton.addEventListener('click', () => {
-        const url = urlInput.value.trim();
-        if (url) {
-            initializePlayer(url);
-        } else {
-            alert('অনুগ্রহ করে একটি বৈধ M3U8 লিঙ্ক দিন।');
-        }
-    });
-
-    // Handle URL from the query string
+    // Get URL from query string
     document.addEventListener('DOMContentLoaded', () => {
         const urlParams = new URLSearchParams(window.location.search);
         const urlFromQuery = urlParams.get('url');
+
         if (urlFromQuery) {
-            urlInput.value = urlFromQuery;
             initializePlayer(urlFromQuery);
+        } else {
+            // Optional: Display a message if no URL is provided
+            console.warn("No URL provided in the query string. Please add ?url=<your_m3u8_link>");
+            // Or you can set a default placeholder or error message in the player element
+            document.getElementById('player').innerHTML = '<div style="color: white; text-align: center; padding-top: 50px;">No HLS URL provided. Please add "?url=<your_m3u8_link>" to the URL.</div>';
         }
     });
 </script>
