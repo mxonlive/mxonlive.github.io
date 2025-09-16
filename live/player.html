@@ -1,74 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HLS Player</title>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr-hlsjs-playback@latest/dist/clappr-hlsjs-playback.min.js"></script>
-    <style>
-        body {
-            margin: 0; /* Remove default body margin */
-            padding: 0; /* Remove default body padding */
-            background-color: #000; /* Black background for a clean look */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh; /* Make sure it takes full viewport height */
-            overflow: hidden; /* Prevent scrollbars */
-        }
-
-        #player {
-            width: 100%;
-            height: 100vh; /* Player takes full viewport height */
-            max-width: 100%; /* Ensure it doesn't exceed viewport width */
-            max-height: 100vh; /* Ensure it doesn't exceed viewport height */
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M3U8 Player</title>
+  <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: black;
+    }
+    #player {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
 </head>
 <body>
+  <div id="player"></div>
+  <script>
+    // Get URL param ?url=
+    const urlParams = new URLSearchParams(window.location.search);
+    const videoUrl = urlParams.get('url') || "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"; // fallback demo
 
-<div id="player"></div>
-
-<script>
-    let player = null;
-
-    function initializePlayer(url) {
-        if (player) {
-            player.destroy();
-        }
-
-        player = new Clappr.Player({
-            source: url,
-            parentId: '#player',
-            autoPlay: true,
-            plugins: [Clappr.HlsjsPlayback],
-            width: '100%',
-            height: '100%',
-            // You can customize controls here if needed, but keeping it minimal
-            // mediacontrol: {
-            //     seekbar: '#007BFF',
-            //     buttons: '#FFFFFF',
-            //     text: '#FFFFFF'
-            // }
-        });
-    }
-
-    // Get URL from query string
-    document.addEventListener('DOMContentLoaded', () => {
-        const urlParams = new URLSearchParams(window.location.search);
-        const urlFromQuery = urlParams.get('url');
-
-        if (urlFromQuery) {
-            initializePlayer(urlFromQuery);
-        } else {
-            // Optional: Display a message if no URL is provided
-            console.warn("No URL provided in the query string. Please add ?url=<your_m3u8_link>");
-            // Or you can set a default placeholder or error message in the player element
-            document.getElementById('player').innerHTML = '<div style="color: white; text-align: center; padding-top: 50px;">No HLS URL provided. Please add "?url=<your_m3u8_link>" to the URL.</div>';
-        }
+    // Init Clappr
+    new Clappr.Player({
+      source: videoUrl,
+      parentId: "#player",
+      autoPlay: true,
+      mute: false,
+      width: "100%",
+      height: "100%",
+      mediacontrol: { seekbar: "#00adee", buttons: "#ffffff" }
     });
-</script>
-
+  </script>
 </body>
 </html>
