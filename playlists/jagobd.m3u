@@ -1,331 +1,331 @@
 #EXTM3U
 
-
 <!-- All channels on this platform are sourced from GitHub, with original credit to jagobd.com. Latest updates and maintenance by mxonlive. -->
 
-#EXTINF:-1, 0. T Sports 
+
+#EXTINF:-1 group-title="Sports" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 0. T Sports 
 https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8
 
-#EXTINF:-1, 1. Jago News 24
+#EXTINF:-1 group-title="News" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 1. Jago News 24
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/jagonews24.stream/playlist.m3u8
 
-#EXTINF:-1, 2. Independent TV
+#EXTINF:-1 group-title="News" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 2. Independent TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/independent-8-org.stream/playlist.m3u8
 
-#EXTINF:-1, 3. Desh TV
+#EXTINF:-1 group-title="News" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 3. Desh TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/deshtv.stream/playlist.m3u8
 
-#EXTINF:-1, 4. News 24
+#EXTINF:-1 group-title="News" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 4. News 24
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/news24local.stream/playlist.m3u8
 
-#EXTINF:-1, 5. Makkah Live New
+#EXTINF:-1 group-title="Islamic" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 5. Makkah Live New
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/makkah.stream/playlist.m3u8
 
-#EXTINF:-1, 6. BTV News
+#EXTINF:-1 group-title="News" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 6. BTV News
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/btvbd-office-sg.stream/playlist.m3u8
 
-#EXTINF:-1, 7. Eakattor TV
+#EXTINF:-1 group-title="News" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 7. Eakattor TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/ekattor.stream/playlist.m3u8
 
-#EXTINF:-1, 8. Ekhon TV
+#EXTINF:-1 group-title="News" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 8. Ekhon TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/globaltv.stream/playlist.m3u8
 
-#EXTINF:-1, 9. Jamuna TV
+#EXTINF:-1 group-title="News" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 9. Jamuna TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/jamuna-test-sample-ok.stream/playlist.m3u8
 
-#EXTINF:-1, 10. ATN News
+#EXTINF:-1 group-title="News" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 10. ATN News
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnws-sg.stream/playlist.m3u8
 
-#EXTINF:-1, 11. Songsad TV
+#EXTINF:-1 group-title="News" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 11. Songsad TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/songsodtv-world.stream/playlist.m3u8
 
-#EXTINF:-1, 12. BTV National
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 12. BTV National
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/btvnational1.stream/playlist.m3u8
 
-#EXTINF:-1, 13. BTV Chittagong
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 13. BTV Chittagong
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/btvnational-ctg.stream/playlist.m3u8
 
-#EXTINF:-1, 14. DBC News
+#EXTINF:-1 group-title="News" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 14. DBC News
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/playlist.m3u8
 
-#EXTINF:-1, 15. Somoy TV
+#EXTINF:-1 group-title="News" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 15. Somoy TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/somoyt000011226615544544.stream/playlist.m3u8
 
-#EXTINF:-1, 16. ATN Bangla
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 16. ATN Bangla
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbd-8-org.stream/playlist.m3u8
 
-#EXTINF:-1, 17. Bangla Vision
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 17. Bangla Vision
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/banglav000.stream/playlist.m3u8
 
-#EXTINF:-1, 18. MY TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 18. MY TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/playlist.m3u8
 
-#EXTINF:-1, 19. Mohona TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 19. Mohona TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/mohonatv.stream/playlist.m3u8
 
-#EXTINF:-1, 20. Channel 9
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 20. Channel 9
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channel9hd.stream/playlist.m3u8
 
-#EXTINF:-1, 21. RTV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 21. RTV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/rtv-sg.stream/playlist.m3u8
 
-#EXTINF:-1, 22. Boishakhi TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 22. Boishakhi TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/boishakhitv-org.stream/playlist.m3u8
 
-#EXTINF:-1, 23. Ananda TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 23. Ananda TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/playlist.m3u8
 
-#EXTINF:-1, 24. SATV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 24. SATV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/satvoff5666.stream/playlist.m3u8
 
-#EXTINF:-1, 25. Channel S BD
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 25. Channel S BD
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/playlist.m3u8
 
-#EXTINF:-1, 26. Bangla TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 26. Bangla TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/banglatvhd.stream/playlist.m3u8
 
-#EXTINF:-1, 27. Bijoy TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 27. Bijoy TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/bijoy00.stream/playlist.m3u8
 
-#EXTINF:-1, 28. Teen Prime
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 28. Teen Prime
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/tenprime.stream/playlist.m3u8
 
-#EXTINF:-1, 29. Asian TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 29. Asian TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/asian-test-sample-ok-d.stream/playlist.m3u8
 
-#EXTINF:-1, 30. Channel I
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 30. Channel I
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channeli-8-org.stream/playlist.m3u8
 
-#EXTINF:-1, 31. Global TV Bangladesh
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 31. Global TV Bangladesh
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/Global-tv.stream/playlist.m3u8
 
-#EXTINF:-1, 32. Ekushey TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 32. Ekushey TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/ekusheytv-8-org.stream/playlist.m3u8
 
-#EXTINF:-1, 33. Channel 5
+#EXTINF:-1 group-title="Music" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 33. Channel 5
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla.stream/playlist.m3u8
 
-#EXTINF:-1, 34. Cumilla 24
+#EXTINF:-1 group-title="News" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 34. Cumilla 24
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/cumilla24bd.stream/playlist.m3u8
 
-#EXTINF:-1, 35. PBN TV
+#EXTINF:-1 group-title="News" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 35. PBN TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/pbntv.stream/playlist.m3u8
 
-#EXTINF:-1, 36. Gazi TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 36. Gazi TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/playlist.m3u8
 
-#EXTINF:-1, 37. Flix SRk TV
+#EXTINF:-1 group-title="Movies" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 37. Flix SRk TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/flixsrktv.stream/playlist.m3u8
 
-#EXTINF:-1, 38. Times 24 TV
+#EXTINF:-1 group-title="News" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 38. Times 24 TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/times24tv.stream/playlist.m3u8
 
-#EXTINF:-1, 39. Rajdhani TV
+#EXTINF:-1 group-title="News" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 39. Rajdhani TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/rajdhanitv.stream/playlist.m3u8
 
-#EXTINF:-1, 40. Varendra TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 40. Varendra TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/varendratv.stream/playlist.m3u8
 
-#EXTINF:-1, 41. Movie Bangla
+#EXTINF:-1 group-title="Movies" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 41. Movie Bangla
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/moviebanglalink2.stream/playlist.m3u8
 
-#EXTINF:-1, 42. Jagoroni TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 42. Jagoroni TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/jagoronitv.stream/playlist.m3u8
 
-#EXTINF:-1, 43. Ruposhibangla
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 43. Ruposhibangla
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8
 
-#EXTINF:-1, 44. NAN TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 44. NAN TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/playlist.m3u8
 
-#EXTINF:-1, 45. Shadin BD
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 45. Shadin BD
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/shadinbd1.stream/playlist.m3u8
 
-#EXTINF:-1, 46. News 21 BD
+#EXTINF:-1 group-title="News" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 46. News 21 BD
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/news21bd.stream/playlist.m3u8
 
-#EXTINF:-1, 47. BNN TV
+#EXTINF:-1 group-title="News" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 47. BNN TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/satvoff5666.stream/playlist.m3u8
 
-#EXTINF:-1, 48. Parboto TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 48. Parboto TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/parbototv.stream/playlist.m3u8
 
-#EXTINF:-1, 49. Max Bangla TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 49. Max Bangla TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/maxbangla.stream/playlist.m3u8
 
-#EXTINF:-1, 50. Geo TV
+#EXTINF:-1 group-title="International" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 50. Geo TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/geotv.stream/playlist.m3u8
 
-#EXTINF:-1, 51. Nobbano TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 51. Nobbano TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/cmtv.stream/playlist.m3u8
 
-#EXTINF:-1, 52. Express TV
+#EXTINF:-1 group-title="International" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 52. Express TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/expresspk.stream/playlist.m3u8
 
-#EXTINF:-1, 53. HUM TV
+#EXTINF:-1 group-title="International" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 53. HUM TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/hum.stream/playlist.m3u8
 
-#EXTINF:-1, 54. Bangla 21 TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 54. Bangla 21 TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/bangla21tv000889956-sg.stream/playlist.m3u8
 
-#EXTINF:-1, 55. Movie Action
+#EXTINF:-1 group-title="Movies" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 55. Movie Action
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/movieaction.stream/playlist.m3u8
 
-#EXTINF:-1, 56. Hollywood Desi
+#EXTINF:-1 group-title="Movies" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 56. Hollywood Desi
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/bo1.stream/playlist.m3u8
 
-#EXTINF:-1, 57. Lotus Macau
+#EXTINF:-1 group-title="International" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 57. Lotus Macau
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/lotusmacautv.stream/playlist.m3u8
 
-#EXTINF:-1, 58. The Movie Club
+#EXTINF:-1 group-title="Movies" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 58. The Movie Club
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/bo2.stream/playlist.m3u8
 
-#EXTINF:-1, 59. B24C
+#EXTINF:-1 group-title="International" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 59. B24C
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/b24c.stream/playlist.m3u8
 
-#EXTINF:-1, 60. Channel A1
+#EXTINF:-1 group-title="International" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 60. Channel A1
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/cha1.stream/playlist.m3u8
 
-#EXTINF:-1, 61. Aur Life HD
+#EXTINF:-1 group-title="International" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 61. Aur Life HD
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/aurtvpk.stream/playlist.m3u8
 
-#EXTINF:-1, 62. Sananda TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 62. Sananda TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/sanandatv.stream/playlist.m3u8
 
-#EXTINF:-1, 63. Dim TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 63. Dim TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dimtv.stream/playlist.m3u8
 
-#EXTINF:-1, 64. Tara TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 64. Tara TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/tara.stream/playlist.m3u8
 
-#EXTINF:-1, 65. Matribhumi TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 65. Matribhumi TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/matribhumitv.stream/playlist.m3u8
 
-#EXTINF:-1, 66. Alpona TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 66. Alpona TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/alponatv.stream/playlist.m3u8
 
-#EXTINF:-1, 67. BA TV
+#EXTINF:-1 group-title="International" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 67. BA TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/batvuk.stream/playlist.m3u8
 
-#EXTINF:-1, 68. TV One
+#EXTINF:-1 group-title="International" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 68. TV One
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/tvonepk.stream/playlist.m3u8
 
-#EXTINF:-1, 69. Apna Ch
+#EXTINF:-1 group-title="International" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 69. Apna Ch
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/apnach.stream/playlist.m3u8
 
-#EXTINF:-1, 70. See TV
+#EXTINF:-1 group-title="International" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 70. See TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/seetv.stream/playlist.m3u8
 
-#EXTINF:-1, 71. Urdu 1
+#EXTINF:-1 group-title="International" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 71. Urdu 1
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/urdu1.stream/playlist.m3u8
 
-#EXTINF:-1, 72. Eye TV Bangla
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 72. Eye TV Bangla
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/eyetv.stream/playlist.m3u8
 
-#EXTINF:-1,73. Movie Plus
+#EXTINF:-1 group-title="Movies" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 73. Movie Plus
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/movieplus.stream/playlist.m3u8
 
-#EXTINF:-1,74. Trace Urban
+#EXTINF:-1 group-title="Music" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 74. Trace Urban
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/traceurban.stream/playlist.m3u8
 
-#EXTINF:-1,75. V2 Beat TV
+#EXTINF:-1 group-title="Music" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 75. V2 Beat TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/v2beattv.stream/playlist.m3u8
 
-#EXTINF:-1,76. 9XM
+#EXTINF:-1 group-title="Music" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 76. 9XM
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/9xmin.stream/playlist.m3u8
 
-#EXTINF:-1,77. ATN Music
+#EXTINF:-1 group-title="Music" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 77. ATN Music
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnmusic.stream/playlist.m3u8
 
-#EXTINF:-1,78. Masti
+#EXTINF:-1 group-title="Music" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 78. Masti
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/mastiiiin.stream/playlist.m3u8
 
-#EXTINF:-1,79. E24
+#EXTINF:-1 group-title="Music" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 79. E24
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/e24in.stream/playlist.m3u8
 
-#EXTINF:-1,80. 9x Jalwa
+#EXTINF:-1 group-title="Music" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 80. 9x Jalwa
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/9xjalwain.stream/playlist.m3u8
 
-#EXTINF:-1,81. Zoom
+#EXTINF:-1 group-title="Music" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 81. Zoom
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/zoomin.stream/playlist.m3u8
 
-#EXTINF:-1,82. Music India
+#EXTINF:-1 group-title="Music" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 82. Music India
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicindiain.stream/playlist.m3u8
 
-#EXTINF:-1,83. Burno TV
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 83. Burno TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/burnotv.stream/playlist.m3u8
 
-#EXTINF:-1,84. Colosal TV
+#EXTINF:-1 group-title="International" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 84. Colosal TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/colosal.stream/playlist.m3u8
 
-#EXTINF:-1,85. ShowBox
+#EXTINF:-1 group-title="Movies" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 85. ShowBox
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/showboxin.stream/playlist.m3u8
 
-#EXTINF:-1,86. 8XM
+#EXTINF:-1 group-title="International" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 86. 8XM
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/8xmpk.stream/playlist.m3u8
 
-#EXTINF:-1,87. Music Bangla
+#EXTINF:-1 group-title="Music" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 87. Music Bangla
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla44.stream/playlist.m3u8
 
-#EXTINF:-1,88. Music Bangla TV
+#EXTINF:-1 group-title="Music" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 88. Music Bangla TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla2025.stream/playlist.m3u8
 
-#EXTINF:-1,89. ATN Islamic TV
+#EXTINF:-1 group-title="Islamic" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 89. ATN Islamic TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnislamictv.stream/playlist.m3u8
 
-#EXTINF:-1,90. Makkah TV
+#EXTINF:-1 group-title="Islamic" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 90. Makkah TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/makkahtv.stream/playlist.m3u8
 
-#EXTINF:-1,91. Deen TV
+#EXTINF:-1 group-title="Islamic" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 91. Deen TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/deentv.stream/playlist.m3u8
 
-#EXTINF:-1,92. Madina Live
+#EXTINF:-1 group-title="Islamic" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 92. Madina Live
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/madina.stream/playlist.m3u8
 
-#EXTINF:-1,93. Peace TV Bangla
+#EXTINF:-1 group-title="Islamic" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 93. Peace TV Bangla
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/peacetvban.stream/playlist.m3u8
 
-#EXTINF:-1,94. Salam TV
+#EXTINF:-1 group-title="Islamic" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 94. Salam TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/salamtvuk1.stream/playlist.m3u8
 
-#EXTINF:-1,95. Madani TV Bangla
+#EXTINF:-1 group-title="Islamic" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 95. Madani TV Bangla
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/madanitvbangla.stream1/playlist.m3u8
 
-#EXTINF:-1,96. Islam Channel
+#EXTINF:-1 group-title="Islamic" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 96. Islam Channel
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/islamchannel.stream/playlist.m3u8
 
-#EXTINF:-1,97. Iqraa
+#EXTINF:-1 group-title="Islamic" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 97. Iqraa
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/iqraa.stream/playlist.m3u8
 
-#EXTINF:-1,98. Islam Channel Bangla
+#EXTINF:-1 group-title="Islamic" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 98. Islam Channel Bangla
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/islamchbangla.stream/playlist.m3u8
 
-#EXTINF:-1,99. Eman Channel
+#EXTINF:-1 group-title="Islamic" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 99. Eman Channel
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/eman.stream/playlist.m3u8
 
-#EXTINF:-1,100. Islam Tv
+#EXTINF:-1 group-title="Islamic" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 100. Islam Tv
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/islamtv.stream/playlist.m3u8
 
-#EXTINF:-1,101. Iqra Tv UK
+#EXTINF:-1 group-title="Islamic" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 101. Iqra Tv UK
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/iqratvuk.stream/playlist.m3u8
 
-#EXTINF:-1,102. i Tv USA
+#EXTINF:-1 group-title="Islamic" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 102. i Tv USA
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/itvusa.stream/playlist.m3u8
 
-#EXTINF:-1,103. Azan Tv Canada
+#EXTINF:-1 group-title="Islamic" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 103. Azan Tv Canada
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/azantv.stream/playlist.m3u8
 
-#EXTINF:-1,104. Quran TV Bangla
+#EXTINF:-1 group-title="Islamic" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 104. Quran TV Bangla
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/qurantvbangla.stream/playlist.m3u8
 
-#EXTINF:-1,105. POP Up
+#EXTINF:-1 group-title="Kids" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 105. POP Up
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/popup.stream/playlist.m3u8
 
-#EXTINF:-1,106. Kids TV
+#EXTINF:-1 group-title="Kids" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 106. Kids TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/rongeentv.stream/playlist.m3u8
 
-#EXTINF:-1,107. Tiny Pop
+#EXTINF:-1 group-title="Kids" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 107. Tiny Pop
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/tinypop/playlist.m3u8
 
-#EXTINF:-1,108. Kids Max
+#EXTINF:-1 group-title="Kids" tvg-logo="https://play-lh.googleusercontent.com/B7eTFyvy4CgBsHSGTP66pFaJ637P9Ihkoq-ZMP2zQPwlXr5QrJdFNIsK6taIbjbdcAc", 108. Kids Max
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/duronto.stream/playlist.m3u8
