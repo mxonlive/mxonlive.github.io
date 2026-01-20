@@ -1,0 +1,35 @@
+{
+  "notice": "🔥 BPL 2026 LIVE NOW! Watch on Server 1. New Channels Added.",
+  
+  "about_notice": "Disclaimer: mxonlive is a player application. We do not host any content. All channels are provided by third-party public servers (Samsung TV, XFireFlix, etc).",
+  
+  "update_data": {
+    "show": true,
+    "version": "v2.6.0",
+    "note": "Smart Error Handling, Logo Fix & New Servers Added!",
+    "download_url": "https://example.com/mxonlive-v2.6.0.apk"
+  },
+  
+  "servers": [
+    {
+      "id": "s1",
+      "name": "BPL Live 🏏",
+      "url": "https://raw.githubusercontent.com/abusaeeidx/BPL-Playlist/refs/heads/main/playlist.m3u"
+    },
+    {
+      "id": "s2",
+      "name": "Samsung TV 🌍",
+      "url": "https://iptv-scraper-zilla.pages.dev/SamsungTVPlus-All.m3u"
+    },
+    {
+      "id": "s3",
+      "name": "BDIX / ISP 🇧🇩",
+      "url": "https://private-zone-by-xfireflix.pages.dev/playlist-isp-bdix.m3u"
+    },
+    {
+      "id": "s4",
+      "name": "Margify TV 📺",
+      "url": "https://cdn-data-margify-tv-for-user.pages.dev/playlist.m3u"
+    }
+  ]
+}
