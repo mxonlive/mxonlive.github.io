@@ -13,23 +13,39 @@
   "servers": [
     {
       "id": "s1",
-      "name": "BPL Live 🏏",
-      "url": "https://raw.githubusercontent.com/abusaeeidx/BPL-Playlist/refs/heads/main/playlist.m3u"
-    },
-    {
-      "id": "s2",
-      "name": "Samsung TV 🌍",
-      "url": "https://iptv-scraper-zilla.pages.dev/SamsungTVPlus-All.m3u"
-    },
-    {
-      "id": "s3",
-      "name": "BDIX / ISP 🇧🇩",
+      "name": "RoarZone",
       "url": "https://private-zone-by-xfireflix.pages.dev/playlist-isp-bdix.m3u"
     },
     {
+      "id": "s2",
+      "name": "Mixed",
+      "url": "https://m3u.ch/pl/b3499faa747f2cd4597756dbb5ac2336_e78e8c1a1cebb153599e2d938ea41a50.m3u"
+    },
+    {
+      "id": "s3",
+      "name": "BPL Live",
+      "url": "https://raw.githubusercontent.com/abusaeeidx/BPL-Playlist/refs/heads/main/playlist.m3u"
+    },
+    {
       "id": "s4",
-      "name": "Margify TV 📺",
-      "url": "https://cdn-data-margify-tv-for-user.pages.dev/playlist.m3u"
+      "name": "YuppTV",
+      "url": "https://raw.githubusercontent.com/abusaeeidx/Yupptv-Playlist/refs/heads/main/playlist.m3u"
+    },
+    {
+      "id": "S5",
+      "name": "Waves",
+      "url": "https://raw.githubusercontent.com/abusaeeidx/iptv-playlist/refs/heads/main/wavesot.m3u"
+    },
+    {
+      "id": "s6",
+      "name": "Distro",
+      "url": "https://iptv-scraper-zilla.pages.dev/distrotv.m3u"
+    },
+    {
+      "id": "S7",
+      "name": "Movies",
+      "url": "https://movie-playlist-byxfireflix.pages.dev/movie-playlist.m3u"
     }
   ]
 }
+
