@@ -42,7 +42,12 @@
       "url": "https://iptv-scraper-zilla.pages.dev/distrotv.m3u"
     },
     {
-      "id": "S7",
+      "id": "s7",
+      "name": "SonyLiv Indian",
+      "url": "https://raw.githubusercontent.com/cricindia/sliv/refs/heads/main/sliv.m3u"
+    },
+    {
+      "id": "s8",
       "name": "Movies",
       "url": "https://movie-playlist-byxfireflix.pages.dev/movie-playlist.m3u"
     }
