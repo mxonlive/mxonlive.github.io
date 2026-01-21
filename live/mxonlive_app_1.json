@@ -1,13 +1,13 @@
 {
   "notice": "🔥 BPL 2026 LIVE NOW! Watch on Server 1. New Channels Added.",
   
-  "about_notice": "Disclaimer: mxonlive is a player application. We do not host any content. All channels are provided by third-party public servers (Samsung TV, XFireFlix, etc).",
+  "about_notice": "Disclaimer: mxonlive is a player application. We do not host any content. All channels are provided by third-party public servers (AYNA, XFireFlix, etc).",
   
   "update_data": {
     "show": true,
-    "version": "v2.6.0",
-    "note": "Smart Error Handling, Logo Fix & New Servers Added!",
-    "download_url": "https://example.com/mxonlive-v2.6.0.apk"
+    "version": "v2.8.0",
+    "note": "mxonlive** is a lightweight, secure, and multi-server live TV streaming application built with Flutter.",
+    "download_url": "https://github.com/mxonlive/mxonlive/actions/runs/21198429247/artifacts/5199897663"
   },
   
   "servers": [
