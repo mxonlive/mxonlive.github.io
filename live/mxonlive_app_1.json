@@ -60,6 +60,11 @@
       "id": "s10",
       "name": "Jagobd",
       "url": "https://raw.githubusercontent.com/mxonlive/mxonlive.github.io/refs/heads/main/playlists/jagobd.m3u"
+    },
+    {
+      "id": "s11",
+      "name": "Toffeex",
+      "url": "https://toffeex.pages.dev/toffee_playlist.m3u"
     }
   ]
 }
