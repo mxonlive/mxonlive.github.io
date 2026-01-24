@@ -13,8 +13,8 @@
   "servers": [
     {
       "id": "s1",
-      "name": "RoarZone",
-      "url": "https://private-zone-by-xfireflix.pages.dev/playlist-isp-bdix.m3u"
+      "name": "Default",
+      "url": "https://v5on.site/x/collections/multiplesourcesm3uplaylist.php"
     },
     {
       "id": "s2",
@@ -63,8 +63,8 @@
     },
     {
       "id": "s11",
-      "name": "Toffeex",
-      "url": "https://v5on.site/x/collections/customized_toffeex.php"
+      "name": "RoarZone",
+      "url": "https://private-zone-by-xfireflix.pages.dev/playlist-isp-bdix.m3u"
     }
   ]
 }
