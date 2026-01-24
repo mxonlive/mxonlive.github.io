@@ -1,0 +1,70 @@
+{
+  "notice": "Demo",
+  
+  "about_notice": "Disclaimer: demo",
+  
+  "update_data": {
+    "show": true,
+    "version": "v3.6.0",
+    "note": "mxonlive: is a lightweight, secure, and multi-server live TV streaming coming soon!",
+    "download_url": "#"
+  },
+  
+  "servers": [
+    {
+      "id": "s1",
+      "name": "RoarZone",
+      "url": "https://private-zone-by-xfireflix.pages.dev/playlist-isp-bdix.m3u"
+    },
+    {
+      "id": "s2",
+      "name": "Mixed",
+      "url": "https://m3u.ch/pl/b3499faa747f2cd4597756dbb5ac2336_e78e8c1a1cebb153599e2d938ea41a50.m3u"
+    },
+    {
+      "id": "s3",
+      "name": "CricHD",
+      "url": "https://github.com/abusaeeidx/CricHd-playlists-Auto-Update-permanent/raw/main/ALL.m3u"
+    },
+    {
+      "id": "s4",
+      "name": "YuppTV",
+      "url": "https://raw.githubusercontent.com/abusaeeidx/Yupptv-Playlist/refs/heads/main/playlist.m3u"
+    },
+    {
+      "id": "s5",
+      "name": "Waves",
+      "url": "https://raw.githubusercontent.com/abusaeeidx/iptv-playlist/refs/heads/main/wavesot.m3u"
+    },
+    {
+      "id": "s6",
+      "name": "Distro",
+      "url": "https://iptv-scraper-zilla.pages.dev/distrotv.m3u"
+    },
+    {
+      "id": "s7",
+      "name": "Daddy",
+      "url": "https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/refs/heads/main/daddylive.m3u"
+    },
+    {
+      "id": "s8",
+      "name": "Bangladeshi",
+      "url": "https://github.com/abusaeeidx/Mrgify-BDIX-IPTV/raw/main/playlist.m3u"
+    },
+    {
+      "id": "s9",
+      "name": "Siam Bro",
+      "url": "https://sonamul4545.vercel.app/siyam3535.m3u"
+    },
+    {
+      "id": "s10",
+      "name": "Jagobd",
+      "url": "https://raw.githubusercontent.com/mxonlive/mxonlive.github.io/refs/heads/main/playlists/jagobd.m3u"
+    },
+    {
+      "id": "s11",
+      "name": "Toffeex",
+      "url": "https://v5on.site/x/collections/customized_toffeex.php"
+    }
+  ]
+}
