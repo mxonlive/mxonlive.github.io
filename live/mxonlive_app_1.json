@@ -1,7 +1,7 @@
 {
-  "notice": "এই অ্যাপটি আগামী ২৫/০১/২০২৬ তারিখ থেকে বন্ধ হয়ে যাবে। যদি আপনি অ্যাপটি সক্রিয় রাখতে চান, তবে অনুগ্রহ করে ডেভেলপার এর সাথে যোগাযোগ করুন।",
+  "notice": "Our app is currently closed, if you have any questions, please message: Telegram @sultanarabi161",
   
-  "about_notice": "Disclaimer: 📢 অফিসিয়াল নোটিশ \n\n আমাদের অ্যাপটি আগামী ২৫/০১/২০২৬ তারিখ থেকে বন্ধ হয়ে যাবে।\n🔒 যদি আপনি অ্যাপটি সক্রিয় রাখতে চান, তবে অনুগ্রহ করে আপনার মতামত ও পরামর্শ জানাতে আমাদের @mxonlive Telegram গ্রুপে জানান। \n\n🙏 আপনাদের সহযোগিতা ও সমর্থনের জন্য আন্তরিক ধন্যবাদ।",
+  "about_notice": "Disclaimer: 📢 Our app is currently closed, if you have any questions, please message: Telegram @sultanarabi161",
   
   "update_data": {
     "show": true,
@@ -14,57 +14,57 @@
     {
       "id": "s1",
       "name": "RoarZone",
-      "url": "https://private-zone-by-xfireflix.pages.dev/playlist-isp-bdix.m3u"
+      "url": ""
     },
     {
       "id": "s2",
       "name": "Mixed",
-      "url": "https://m3u.ch/pl/b3499faa747f2cd4597756dbb5ac2336_e78e8c1a1cebb153599e2d938ea41a50.m3u"
+      "url": ""
     },
     {
       "id": "s3",
       "name": "CricHD",
-      "url": "https://github.com/abusaeeidx/CricHd-playlists-Auto-Update-permanent/raw/main/ALL.m3u"
+      "url": ""
     },
     {
       "id": "s4",
       "name": "YuppTV",
-      "url": "https://raw.githubusercontent.com/abusaeeidx/Yupptv-Playlist/refs/heads/main/playlist.m3u"
+      "url": ""
     },
     {
       "id": "s5",
       "name": "Waves",
-      "url": "https://raw.githubusercontent.com/abusaeeidx/iptv-playlist/refs/heads/main/wavesot.m3u"
+      "url": ""
     },
     {
       "id": "s6",
       "name": "Distro",
-      "url": "https://iptv-scraper-zilla.pages.dev/distrotv.m3u"
+      "url": ""
     },
     {
       "id": "s7",
       "name": "Daddy",
-      "url": "https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/refs/heads/main/daddylive.m3u"
+      "url": ""
     },
     {
       "id": "s8",
       "name": "Bangladeshi",
-      "url": "https://github.com/abusaeeidx/Mrgify-BDIX-IPTV/raw/main/playlist.m3u"
+      "url": ""
     },
     {
       "id": "s9",
       "name": "Siam Bro",
-      "url": "https://sonamul4545.vercel.app/siyam3535.m3u"
+      "url": ""
     },
     {
       "id": "s10",
       "name": "Jagobd",
-      "url": "https://raw.githubusercontent.com/mxonlive/mxonlive.github.io/refs/heads/main/playlists/jagobd.m3u"
+      "url": ""
     },
     {
       "id": "s11",
       "name": "Toffeex",
-      "url": "https://v5on.site/x/collections/customized_toffeex.php"
+      "url": ""
     }
   ]
 }
