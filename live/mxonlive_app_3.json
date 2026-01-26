@@ -18,6 +18,11 @@
     },
     {
       "id": "s2",
+      "name": "Sports",
+      "url": "http://v5on.site/x/collections/multiplesources_sports/index.m3u"
+    },
+    {
+      "id": "s2",
       "name": "Mixed",
       "url": "https://m3u.ch/pl/b3499faa747f2cd4597756dbb5ac2336_e78e8c1a1cebb153599e2d938ea41a50.m3u"
     },
