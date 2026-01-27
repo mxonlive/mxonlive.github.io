@@ -1,0 +1,78 @@
+/* nexplayer.css */
+.nex-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    font-family: sans-serif;
+    overflow: hidden;
+    group: nex; /* For hover effects */
+}
+
+
+.nex-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.nex-controls {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    opacity: 0; /* শুরুতে লুকানো থাকবে */
+    transition: opacity 0.3s;
+    box-sizing: border-box;
+}
+
+
+.nex-container:hover .nex-controls {
+    opacity: 1;
+}
+
+
+.nex-btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 15px;
+    outline: none;
+}
+
+.nex-btn:hover {
+    color: #00a8ff; 
+}
+
+
+.nex-volume-slider {
+    width: 80px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+.nex-live-badge {
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: auto; 
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.nex-live-dot {
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 5px;
+}
