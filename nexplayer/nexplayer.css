@@ -1,78 +1,104 @@
 /* nexplayer.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 .nex-container {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100%; /* প্যারেন্ট ডিভের হাইট নিবে */
     background: #000;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     overflow: hidden;
-    group: nex; /* For hover effects */
+    user-select: none; /* টেক্সট সিলেক্ট বন্ধ */
+    -webkit-tap-highlight-color: transparent; /* মোবাইলে ব্লু ফ্লাস বন্ধ */
 }
 
-
+/* ভিডিও স্ক্রিন */
 .nex-video {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain; /* ভিডিও রেশিও ঠিক রাখবে */
 }
 
+/* লোডিং স্পিনার (Buffering) */
+.nex-loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    border-top: 5px solid #00a8ff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    display: none; /* ডিফল্ট হাইড */
+    pointer-events: none;
+}
 
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* কন্ট্রোল বার */
 .nex-controls {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
-    padding: 10px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    padding: 15px;
     display: flex;
     align-items: center;
-    opacity: 0; /* শুরুতে লুকানো থাকবে */
-    transition: opacity 0.3s;
+    opacity: 0;
+    transition: opacity 0.3s ease;
     box-sizing: border-box;
 }
 
-
-.nex-container:hover .nex-controls {
+/* ডেস্কটপে হোভার করলে এবং মোবাইলে ট্যাপ করলে শো করবে */
+.nex-container.show-controls .nex-controls {
     opacity: 1;
 }
 
-
+/* বাটনস */
 .nex-btn {
     background: none;
     border: none;
-    color: white;
+    color: #fff;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 20px;
     margin-right: 15px;
-    outline: none;
+    padding: 5px;
+    transition: transform 0.1s;
 }
 
-.nex-btn:hover {
-    color: #00a8ff; 
+.nex-btn:active {
+    transform: scale(0.9);
 }
-
 
 .nex-volume-slider {
     width: 80px;
-    margin-right: 15px;
     cursor: pointer;
+    accent-color: #00a8ff; /* মডার্ন ব্রাউজারে কালার */
 }
 
-
 .nex-live-badge {
-    color: red;
-    font-weight: bold;
+    margin-left: auto;
+    color: #fff;
+    background: rgba(255, 0, 0, 0.8);
+    padding: 2px 8px;
+    border-radius: 4px;
     font-size: 12px;
-    margin-left: auto; 
-    margin-right: 15px;
+    font-weight: bold;
     display: flex;
     align-items: center;
+    letter-spacing: 1px;
 }
 
 .nex-live-dot {
-    width: 8px;
-    height: 8px;
-    background-color: red;
+    width: 6px;
+    height: 6px;
+    background: #fff;
     border-radius: 50%;
     margin-right: 5px;
 }
