@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexPlayer Demo</title>
+    
+    <link rel="stylesheet" href="nexplayer.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body style="background: #222; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+
+    <div id="player" style="width: 640px; height: 360px; box-shadow: 0 0 20px rgba(0,0,0,0.5);"></div>
+
+    <script src="nexplayer.js"></script>
+
+    <script>
+        
+        const player = new NexPlayer({
+            selector: '#player',
+            
+            source: 'https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8' 
+        });
+    </script>
+
+</body>
+</html>
