@@ -1,0 +1,80 @@
+{
+  "notice": "Watch your favorite channels in one place — mxonlive 🔥🔫",
+
+  "about_notice": "Disclaimer: mxonlive does not host, store, or stream any media content on its own servers. All channels and streams available through this application are sourced from publicly accessible third-party providers. mxonlive acts only as a media player or directory and has no control over the content, availability, or legality of external streams. Users are responsible for complying with their local laws and regulations. mxonlive is not liable for any misuse of the application or third-party content.",
+
+  "update_data": {
+    "show": true,
+    "version": "v3.6.0",
+    "note": "mxonlive is a lightweight, secure, and multi-server live TV streaming platform.",
+    "download_url": "#"
+  },
+
+  "servers": [
+    {
+      "id": "s1",
+      "name": "Default",
+      "url": "https://mxonlive.short.gy/araimo-playlist-m3u"
+    },
+    {
+      "id": "s2",
+      "name": "Sports",
+      "url": "http://v5on.site/x/collections/multiplesources_sports/index.m3u"
+    },
+    {
+      "id": "s3",
+      "name": "Mixed",
+      "url": "https://m3u.ch/pl/b3499faa747f2cd4597756dbb5ac2336_e78e8c1a1cebb153599e2d938ea41a50.m3u"
+    },
+    {
+      "id": "s4",
+      "name": "CricHD",
+      "url": "https://github.com/abusaeeidx/CricHd-playlists-Auto-Update-permanent/raw/main/ALL.m3u"
+    },
+    {
+      "id": "s5",
+      "name": "YuppTV",
+      "url": "https://raw.githubusercontent.com/abusaeeidx/Yupptv-Playlist/refs/heads/main/playlist.m3u"
+    },
+    {
+      "id": "s6",
+      "name": "Waves",
+      "url": "https://raw.githubusercontent.com/abusaeeidx/iptv-playlist/refs/heads/main/wavesot.m3u"
+    },
+    {
+      "id": "s7",
+      "name": "Distro",
+      "url": "https://iptv-scraper-zilla.pages.dev/distrotv.m3u"
+    },
+    {
+      "id": "s8",
+      "name": "Daddy",
+      "url": "https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/refs/heads/main/daddylive.m3u"
+    },
+    {
+      "id": "s9",
+      "name": "Bangladeshi",
+      "url": "https://github.com/abusaeeidx/Mrgify-BDIX-IPTV/raw/main/playlist.m3u"
+    },
+    {
+      "id": "s10",
+      "name": "Siam Bro",
+      "url": "https://sonamul4545.vercel.app/siyam3535.m3u"
+    },
+    {
+      "id": "s11",
+      "name": "Jagobd",
+      "url": "https://raw.githubusercontent.com/mxonlive/mxonlive.github.io/refs/heads/main/playlists/jagobd.m3u"
+    },
+    {
+      "id": "s12",
+      "name": "RoarZone",
+      "url": "https://private-zone-by-xfireflix.pages.dev/playlist-isp-bdix.m3u"
+    },
+    {
+      "id": "s13",
+      "name": "Nur",
+      "url": "https://v5on.site/x/collections/nurmd2006.php"
+    }
+  ]
+}
