@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 
+
     <!--
      * PROJECT: Live TV Streaming Web (Toffeex Theme )
      * DEVELOPER: sultanarabi161
@@ -9,21 +10,22 @@
      * FEATURES: Dark theme, responsive design, Video.js player, error handling
      * CREDIT: Developed by sultanarabi161
     -->
-  
+
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     <title>mxonlive — Sports & TV Channels</title>
     <meta name="description" content="Watch free live sports, cricket, football, news & entertainment channels in HD quality.">
-    
-    <!-- Popunder ads for - mxonlive.github.io -->
+     <!-- Popunder ads for - mxonlive.github.io -->
     <script src="https://pl28840376.effectivegatecpm.com/ed/e6/12/ede612495f9076e188a590ac709b66be.js"></script>
     
     <link rel="icon" type="image/webp" href="https://mxonlive.github.io/assets/mxonlive_logo.webp">
     <link rel="icon" type="image/png" sizes="32x32" href="https://mxonlive.github.io/assets/mxonlive_logo.webp">
     <link rel="icon" type="image/png" sizes="16x16" href="https://mxonlive.github.io/assets/mxonlive_logo.webp">
     <link rel="apple-touch-icon" sizes="180x180" href="https://mxonlive.github.io/assets/mxonlive_logo.webp">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
     
@@ -181,14 +183,13 @@
 
 <div id="visitor-counter">
     <script type="text/javascript" src="https://free-hit-counters.net/count/jjxr"></script><br>
- <a href='https://www.acadoo.de/'>acadoo</a> <script type='text/javascript' src='https://www.whomania.com/ctr?id=ab2c3721c0f14fe4129c1261eb60965ee4805c2e'></script>
+    <a href='https://www.acadoo.de/'>acadoo</a>
+    <script type='text/javascript' src='https://www.whomania.com/ctr?id=ab2c3721c0f14fe4129c1261eb60965ee4805c2e'></script>
 </div>
 
 <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
-
+// backup: https://private-zone-by-xfireflix.pages.dev/playlist-isp-bdix.m3u 
 <script>
-// BUG FIX: Added 'https://' to make it a valid URL for fetching data.
-// https://private-zone-by-xfireflix.pages.dev/playlist-isp-bdix.m3u 
 const M3U_URL = "https://m3u.ch/pl/b425af0fcb90211c765f6f3599512544_939ad57dec37203be6f003af5a038fb6.m3u";
 const DEFAULT_CAT = "Sports";
 
@@ -198,7 +199,7 @@ let categories = [];
 let currentPlayingUrl = null;
 
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Initialize Video.js Player
+    // 1. Initialize Video.js Player with HTML5 VHS Configuration (FIXED VIDEO ISSUE)
     player = videojs('my-video', {
         fluid: true,
         responsive: true,
@@ -206,7 +207,15 @@ document.addEventListener('DOMContentLoaded', () => {
         controls: true,
         autoplay: false,
         preload: 'auto',
-        bigPlayButton: true
+        bigPlayButton: true,
+        html5: {
+            vhs: {
+                overrideNative: true // Forces Video.js to decode the video, fixing the "audio only" issue
+            },
+            nativeVideoTracks: false,
+            nativeAudioTracks: false,
+            nativeTextTracks: false
+        }
     });
 
     // 2. Handle Player Errors gracefully
